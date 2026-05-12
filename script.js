@@ -30,6 +30,11 @@ const translations = {
     "Français courant · Anglais technique": "Fluent French · Technical English",
     "Domaines": "Domains",
     "Web · Mobile · API · IA": "Web · Mobile · API · AI",
+    "Compétences clés": "Key skills",
+    "Frontend, backend, mobile, IA et delivery produit.": "Frontend, backend, mobile, AI and product delivery.",
+    "Voir la stack": "View the stack",
+    "ESP Dakar, informatique, ingénierie technologue.": "ESP Dakar, computer science, technologist engineering.",
+    "Voir le parcours": "View education",
     "Projets sélectionnés": "Selected projects",
     "Des réalisations concrètes, présentées pour aller vite à l’essentiel.": "Concrete work, presented so visitors get the essentials quickly.",
     "Production": "Production",
@@ -95,7 +100,8 @@ const uiLabels = {
     metaDescription: "Portfolio professionnel de Serge Senghor, Software Engineer Full Stack, Mobile et IA Junior basé à Dakar.",
     nav: "Navigation principale",
     portrait: "Portrait de Serge Senghor",
-    quickInfo: "Informations rapides"
+    quickInfo: "Informations rapides",
+    snapshot: "Aperçu compétences et formation"
   },
   en: {
     brand: "Serge Senghor home",
@@ -105,7 +111,8 @@ const uiLabels = {
     metaDescription: "Professional portfolio of Serge Senghor, Full Stack, Mobile and Junior AI Software Engineer based in Dakar.",
     nav: "Main navigation",
     portrait: "Portrait of Serge Senghor",
-    quickInfo: "Quick information"
+    quickInfo: "Quick information",
+    snapshot: "Skills and education overview"
   }
 };
 
@@ -178,6 +185,7 @@ const applyLanguage = (language) => {
   document.querySelector('meta[name="description"]').setAttribute("content", uiLabels[language].metaDescription);
   document.querySelector(".brand").setAttribute("aria-label", uiLabels[language].brand);
   document.querySelector(".profile-band").setAttribute("aria-label", uiLabels[language].quickInfo);
+  document.querySelector(".snapshot-section").setAttribute("aria-label", uiLabels[language].snapshot);
   portrait.setAttribute("aria-label", uiLabels[language].portrait);
   nav.setAttribute("aria-label", uiLabels[language].nav);
   langSwitcher.setAttribute("aria-label", uiLabels[language].langChoice);

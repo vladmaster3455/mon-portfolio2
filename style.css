@@ -426,6 +426,70 @@ svg {
   line-height: 1.35;
 }
 
+.snapshot-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.snapshot-card {
+  min-height: 158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px;
+  border: 1px solid rgba(23, 21, 18, 0.14);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 248, 0.68);
+  box-shadow: 0 18px 54px rgba(38, 31, 24, 0.08);
+  transition: transform 0.24s var(--ease), background 0.24s var(--ease), box-shadow 0.24s var(--ease);
+}
+
+.snapshot-card:hover,
+.snapshot-card:focus-visible {
+  background: var(--deep);
+  color: var(--white);
+  box-shadow: 0 28px 72px rgba(38, 31, 24, 0.16);
+  outline: 0;
+  transform: translateY(-3px);
+}
+
+.snapshot-card span,
+.snapshot-card small {
+  color: var(--accent-2);
+  font-size: 0.74rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.snapshot-card strong {
+  max-width: 520px;
+  color: var(--deep);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.55rem, 3vw, 2.65rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.snapshot-card small {
+  color: var(--muted);
+}
+
+.snapshot-card:hover span,
+.snapshot-card:hover small,
+.snapshot-card:focus-visible span,
+.snapshot-card:focus-visible small {
+  color: rgba(255, 253, 248, 0.68);
+}
+
+.snapshot-card:hover strong,
+.snapshot-card:focus-visible strong {
+  color: var(--white);
+}
+
 .projects-section,
 .compact-section,
 .contact-section,
@@ -926,6 +990,10 @@ svg {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .snapshot-section {
+    grid-template-columns: 1fr;
+  }
+
   .profile-band div:nth-child(2) {
     border-right: 0;
   }
@@ -1009,6 +1077,7 @@ svg {
   }
 
   .profile-band,
+  .snapshot-section,
   .projects-grid,
   .skills-grid,
   .education-list,
