@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio professionnel de Serge Senghor, Software Engineer Full Stack, Mobile et IA Junior basé à Dakar.">
+  <meta name="theme-color" content="#f4f1ea">
+  <title>Serge Senghor · Software Engineer</title>
+  <link rel="preload" href="cv-image-000.jpg" as="image">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Accueil Serge Senghor">Serge Senghor</a>
+    <button class="menu-button" type="button" aria-label="Ouvrir le menu" aria-expanded="false" data-menu-button>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" aria-label="Navigation principale" data-nav>
+      <a href="#projects">Projets</a>
+      <a href="#skills">Compétences</a>
+      <a href="#experience">Expériences</a>
+      <a href="#education">Formation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Dakar, Sénégal · Disponible</p>
+        <h1 class="hero-name">Serge Senghor</h1>
+        <p class="role hero-role">Software Engineer Full Stack, Mobile & IA Junior</p>
+        <p class="intro">Je conçois des applications web et mobiles propres, rapides et maintenables, avec une attention forte aux APIs, à l’expérience produit et aux usages IA.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:sergesenghor@esp.sn">Contact</a>
+          <a class="button button-secondary" href="#projects">Voir projets</a>
+        </div>
+      </div>
+
+      <div class="portrait-wrap reveal" aria-label="Portrait de Serge Senghor" data-portrait>
+        <div class="portrait-backdrop"></div>
+        <svg class="portrait-mark" viewBox="0 0 320 420" aria-hidden="true">
+          <path d="M48 84C88 18 194 20 252 69c58 49 54 158 15 235-38 76-120 121-187 82C13 347 8 150 48 84Z"></path>
+        </svg>
+        <figure class="portrait-frame">
+          <img src="cv-image-000.jpg" width="400" height="400" alt="Portrait professionnel de Serge Senghor">
+        </figure>
+        <div class="availability-card">
+          <span>Statut</span>
+          <strong>Ouvert aux opportunités</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-band reveal" aria-label="Informations rapides">
+      <div>
+        <span>Localisation</span>
+        <strong>Dakar</strong>
+      </div>
+      <div>
+        <span>Mobilité</span>
+        <strong>Sur site · Hybride · Remote</strong>
+      </div>
+      <div>
+        <span>Langues</span>
+        <strong>Français courant · Anglais technique</strong>
+      </div>
+      <div>
+        <span>Domaines</span>
+        <strong>Web · Mobile · API · IA</strong>
+      </div>
+    </section>
+
+    <section class="section-shell projects-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projets sélectionnés</p>
+        <h2>Des réalisations concrètes, présentées pour aller vite à l’essentiel.</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card project-feature reveal">
+          <div class="project-visual visual-commerce"><img src="project-ecommerce.webp" width="355" height="444" loading="eager" decoding="async" fetchpriority="high" alt="Aperçu visuel du projet senghorserge.me"></div>
+          <div class="project-topline">
+            <span>E-commerce</span>
+            <span>Production</span>
+          </div>
+          <h3>senghorserge.me</h3>
+          <p>Plateforme orientée gestion produits, présentation commerciale et expérience utilisateur responsive.</p>
+          <div class="project-actions">
+            <a href="https://senghorserge.me" target="_blank" rel="noreferrer">Démo live</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-brand"><img src="project-styleflow.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet styleflow.me"></div>
+          <div class="project-topline">
+            <span>Brand website</span>
+            <span>Web responsive</span>
+          </div>
+          <h3>styleflow.me</h3>
+          <p>Site vitrine pour salon de coiffure avec identité visuelle, services, contact client et parcours simple.</p>
+          <div class="project-actions">
+            <a href="https://styleflow.me" target="_blank" rel="noreferrer">Démo live</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-vision"><img src="project-vision-lab.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet Vision Lab"></div>
+          <div class="project-topline">
+            <span>IA · Computer Vision</span>
+            <span>Python · Streamlit</span>
+          </div>
+          <h3>Vision Lab</h3>
+          <p>Application de computer vision déployée pour tester des scénarios de détection d’objets et d’expérimentation IA.</p>
+          <div class="project-actions">
+            <a href="https://vision-lab-app-k3v8q9zcciudnkemnxczrg.streamlit.app/" target="_blank" rel="noreferrer">Démo live</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-service"><img src="project-bank-microservice.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet Bank Microservice"></div>
+          <div class="project-topline">
+            <span>Backend</span>
+            <span>Java · Spring Boot</span>
+          </div>
+          <h3>Bank Microservice</h3>
+          <p>Architecture microservices avec Kafka, PostgreSQL, Docker, Gateway, JWT et documentation Swagger.</p>
+          <div class="project-actions">
+            <a href="https://github.com/vladmaster3455/bank_microservice" target="_blank" rel="noreferrer">GitHub</a>
+            <span>Démo non disponible</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-cv"><img src="project-cv-generator.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet Générateur de CV"></div>
+          <div class="project-topline">
+            <span>Outil</span>
+            <span>TypeScript</span>
+          </div>
+          <h3>Générateur de CV</h3>
+          <p>Application de génération dynamique de CV professionnels avec templates modernes et parcours guidé.</p>
+          <div class="project-actions">
+            <a href="https://cv-generator-oh5byxoyw-sergesenghor-9236s-projects.vercel.app/" target="_blank" rel="noreferrer">Démo live</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-security"><img src="project-cybervision.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet CyberVision"></div>
+          <div class="project-topline">
+            <span>Cybersécurité</span>
+            <span>IA · Dashboard</span>
+          </div>
+          <h3>CyberVision</h3>
+          <p>Dashboard IA/sécurité pour visualiser des anomalies et explorer des signaux opérationnels.</p>
+          <div class="project-actions">
+            <a href="https://github.com/vladmaster3455/projet1_streamlit_cybervision" target="_blank" rel="noreferrer">GitHub</a>
+            <span>Démo non disponible</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-ml"><img src="project-intrusion-detection.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet Intrusion Detection"></div>
+          <div class="project-topline">
+            <span>Machine Learning</span>
+            <span>Sécurité réseau</span>
+          </div>
+          <h3>Intrusion Detection</h3>
+          <p>Système IDS basé machine learning pour analyser des données réseau et détecter des comportements suspects.</p>
+          <div class="project-actions">
+            <a href="https://github.com/vladmaster3455/Projet2--intrusion" target="_blank" rel="noreferrer">GitHub</a>
+            <span>Démo non disponible</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-api"><img src="project-api-rest.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet API REST Service"></div>
+          <div class="project-topline">
+            <span>API</span>
+            <span>C# · .NET</span>
+          </div>
+          <h3>API REST Service</h3>
+          <p>Service REST avec JWT, gestion des droits, documentation Swagger et structure backend claire.</p>
+          <div class="project-actions">
+            <a href="https://github.com/vladmaster3455/api-net" target="_blank" rel="noreferrer">GitHub</a>
+            <span>Démo non disponible</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-mongo"><img src="project-mongodb-backend.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet Backend MongoDB"></div>
+          <div class="project-topline">
+            <span>Backend</span>
+            <span>Node.js · MongoDB</span>
+          </div>
+          <h3>Backend MongoDB</h3>
+          <p>API avec authentification JWT, CRUD, architecture MVC et middlewares personnalisés.</p>
+          <div class="project-actions">
+            <a href="https://github.com/vladmaster3455/backend-mongo" target="_blank" rel="noreferrer">GitHub</a>
+            <span>Démo non disponible</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual visual-webapp"><img src="project-projet4.webp" width="355" height="444" loading="lazy" decoding="async" alt="Aperçu visuel du projet Projet4"></div>
+          <div class="project-topline">
+            <span>Web App</span>
+            <span>TypeScript</span>
+          </div>
+          <h3>Projet4</h3>
+          <p>Application web moderne avec interface réactive et structure fullstack propre.</p>
+          <div class="project-actions">
+            <a href="https://github.com/vladmaster3455/projet4" target="_blank" rel="noreferrer">GitHub</a>
+            <span>Démo non disponible</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell compact-section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Compétences</p>
+        <h2>Une stack organisée par usage, pas par accumulation.</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <article>
+          <h3>Frontend & Mobile</h3>
+          <p>React, Next.js, React Native, TypeScript, JavaScript, HTML5, CSS3, WordPress, responsive design, intégration Figma.</p>
+        </article>
+        <article>
+          <h3>Backend & APIs</h3>
+          <p>Java 17/21, Spring Boot, Node.js, Express, C#, .NET, REST, GraphQL, gRPC, OpenAPI, microservices, SOLID.</p>
+        </article>
+        <article>
+          <h3>Data & IA</h3>
+          <p>Python, Streamlit, FastAPI, PyTorch, LLM, NLP, deep learning, computer vision, data engineering, PGVector.</p>
+        </article>
+        <article>
+          <h3>Delivery & Qualité</h3>
+          <p>Docker, Docker Compose, Git, GitHub, GitLab CI/CD, PostgreSQL, MongoDB, Hibernate/JPA, Maven, Postman, tests.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Expériences</p>
+        <h2>Parcours court, lisible et orienté impact.</h2>
+      </div>
+      <div class="timeline reveal">
+        <article>
+          <time>Avril 2026 — Présent</time>
+          <div>
+            <h3>Developer · iSHEERO</h3>
+            <p>Développement d’applications web et mobiles en startup tech, collaboration remote et itérations produit.</p>
+          </div>
+        </article>
+        <article>
+          <time>Juillet 2025 — Octobre 2025</time>
+          <div>
+            <h3>Développeur Full Stack · Simplon Sénégal</h3>
+            <p>Applications web et mobile avec React, React Native et TypeScript, intégration Figma, APIs REST et méthode Agile.</p>
+          </div>
+        </article>
+        <article>
+          <time>Septembre 2024 — Octobre 2024</time>
+          <div>
+            <h3>Developer · Banque de l’Habitat du Sénégal</h3>
+            <p>Application C# Windows Forms/.NET, modélisation de données, tests unitaires et documentation.</p>
+          </div>
+        </article>
+        <article>
+          <time>Avril 2024 — Juillet 2024</time>
+          <div>
+            <h3>Stagiaire Data Engineer · UCAD</h3>
+            <p>Étude comparative de LLMs, pipelines Python, nettoyage de données et veille deep learning.</p>
+          </div>
+        </article>
+        <article>
+          <time>Avril 2023 — Septembre 2023</time>
+          <div>
+            <h3>Stagiaire Software Engineer · LITA</h3>
+            <p>Contribution à des projets logiciels réels, collaboration en équipe et bonnes pratiques de développement.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell compact-section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Formation</p>
+        <h2>Base académique claire.</h2>
+      </div>
+      <div class="education-list reveal">
+        <article>
+          <time>2024 à 2026</time>
+          <h3>ESP Dakar</h3>
+          <p>Diplôme d’Ingénierie Technologue en Informatique</p>
+        </article>
+        <article>
+          <time>2022 à 2024</time>
+          <h3>ESP Dakar</h3>
+          <p>Diplôme de Technicien Supérieur en Informatique</p>
+        </article>
+        <article>
+          <time>Juillet à Novembre</time>
+          <h3>Simplon Sénégal</h3>
+          <p>Formation Développement Web & Mobile</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell certifications-section" id="certifications">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Certifications</p>
+        <h2>Quelques signaux complémentaires.</h2>
+      </div>
+      <div class="certifications reveal" data-certifications>
+        <div class="cert-list">
+          <span>NVIDIA · Fundamentals of Deep Learning</span>
+          <span>DataCamp · Python Developer</span>
+          <span>Cisco · Networking Fundamentals</span>
+        </div>
+        <button type="button" data-cert-toggle aria-expanded="false">Voir plus</button>
+        <div class="cert-more" data-cert-more>
+          <span>DataCamp · Associate Python Developer</span>
+          <span>DataCamp & Educative · Java Developer & Java Masterclass</span>
+          <span>freeCodeCamp · Responsive Web Design</span>
+          <span>freeCodeCamp · Foundational C#</span>
+          <span>Simplon Sénégal · Développement Mobile Cross-Platform</span>
+          <span>Simplon Sénégal · Développement Web Full Stack</span>
+          <span>Hashgraph · Web3 / Smart Contracts</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Disponible pour construire des interfaces, APIs et produits numériques sérieux.</h2>
+        <div class="contact-grid">
+          <a href="mailto:sergesenghor@esp.sn"><span>Email</span><strong>sergesenghor@esp.sn</strong></a>
+          <a href="tel:+221777897742"><span>Téléphone</span><strong>+221 77 789 77 42</strong></a>
+          <a href="https://github.com/vladmaster3455" target="_blank" rel="noreferrer"><span>GitHub</span><strong>vladmaster3455</strong></a>
+          <a href="https://www.linkedin.com/in/serge-senghor-332b97273" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>Serge Senghor</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Serge Senghor</span>
+    <span>Dakar · Portfolio statique GitHub Pages</span>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
