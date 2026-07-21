@@ -46,7 +46,7 @@ var I18N = {
     "hero.eyebrow": "Dakar, Sénégal — ouvert aux CDI · CDD · Freelance · Remote / Hybride",
     "xp.eyebrow": "Parcours",
     "xp.title": "Expérience professionnelle",
-    "xp.1.meta": "Mai 2026 – Présent · Freelance / Hybride",
+    "xp.1.meta": "Mai 2026 – Juil · Freelance / Hybride",
     "xp.1.role": "Développeur Full-Stack — Consortium Araignée SAS",
     "xp.1.desc": "Conception et livraison d'applications web sur mesure pour des entreprises clientes (BTP, universités, gestion interne), leur permettant de piloter leurs activités au quotidien. Développement de plateformes de gestion à grande échelle : suivi de chantiers, administration universitaire, outils métier adaptés aux besoins de chaque client. Rédaction de la documentation technique pour faciliter la prise en main et la maintenance des outils livrés.",
     "xp.2.meta": "Avr. 2026 – Mai 2026 · Stage · Télétravail",
